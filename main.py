@@ -17,7 +17,7 @@ startup_extensions = ["Cog.reload"] # Load commands via COG
 clan_tags = ["#29U92UUYL"]
 
 # Access the Clash of Clans API
-coc_client = coc.login('bennichols23841@gmail.com', 'Yoperman23238484123123!', client=coc.EventsClient, key_names="crimson frost", key_count=1)
+coc_client = coc.login('USERNAME', 'PASSWORD', client=coc.EventsClient, key_names="crimson frost", key_count=1)
 
 # On member join, grab information and send to channel
 @coc_client.event

@@ -10,7 +10,7 @@ import datetime
 
 # Setup bot
 TOKEN = "TOKEN HERE"  # Bot token -- used to push code to bot
-bot = commands.Bot(command_prefix="!", description="Syntax: <needed> [optional] [option1|option2]\nMade by Vitzual")
+bot = commands.Bot(command_prefix="!", description="Syntax: <needed> [optional]\nMade by Vitzual")
 startup_extensions = ["Cog.reload"] # Load commands via COG
 
 # Specify which clan to access (Crimson Frost)
